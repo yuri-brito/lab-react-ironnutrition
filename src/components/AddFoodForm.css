@@ -1,0 +1,13 @@
+.divFood{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.addFoodForm{
+    margin:3%;
+    width:50%;
+    text-align: left;   
+}
+.addFoodForm button{
+    margin-top: 2%;
+} 

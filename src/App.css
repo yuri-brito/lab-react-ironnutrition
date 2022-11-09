@@ -1,7 +1,16 @@
 .App {
   text-align: center;
+  
 }
+.arrayFood{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 
+}
+.divZero{
+  font-size: 150px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
