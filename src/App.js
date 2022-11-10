@@ -13,7 +13,6 @@ function App() {
   function search(str){
     let newFoods=[]
     if (str===''){
-      console.log('yuri')
       newFoods=[...foods]
     }else{
       newFoods=[...foods].filter((obj)=>obj.name.toLowerCase().includes(str.toLowerCase()))
